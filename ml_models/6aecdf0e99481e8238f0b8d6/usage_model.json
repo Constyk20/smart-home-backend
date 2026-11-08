@@ -1,0 +1,31 @@
+{
+  "house_id": "6aecdf0e99481e8238f0b8d6",
+  "trained_at": "2026-11-06T07:55:59.827428+00:00",
+  "model_type": "RandomForestClassifier (hourly device habit)",
+  "metrics": {
+    "accuracy": 0.906896551724138,
+    "f1": 0.7768595041322314,
+    "baseline_majority_accuracy": 0.7603448275862069,
+    "beats_majority_baseline": true,
+    "train_rows": 2273,
+    "test_rows": 580,
+    "positive_rate_test": 0.2396551724137931
+  },
+  "n_events": 636,
+  "automation_event_share": 0.0,
+  "synthetic_event_share": 0.39937106918238996,
+  "history_start": "2026-10-07T05:19:47.740000+00:00",
+  "history_end": "2026-11-06T07:55:59.827428+00:00",
+  "features": [
+    "hour_sin",
+    "hour_cos",
+    "dow",
+    "is_weekend",
+    "type_light",
+    "type_fan",
+    "type_air_conditioner",
+    "type_television",
+    "type_exhaust_fan"
+  ],
+  "sklearn_version": "1.7.2"
+}
